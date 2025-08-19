@@ -1,8 +1,7 @@
 {
-  "name": "Nikhil Sundriya",
+  "name": "nikhil-sundriya",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://github.com/nikhilsundriya",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +9,7 @@
     "export": "next export"
   },
   "engines": {
-    "node": ">=16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
