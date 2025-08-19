@@ -114,7 +114,7 @@ function About() {
     return (
         <>
             <div className="w-20 md:w-28 my-4 bg-white rounded-full">
-                <img className="w-full" src="./images/logos/bitmoji.png" alt="nikhil Patel Logo" />
+                <img className="w-full" src="./images/logos/bitmoji.png" alt="nikhil sundriya Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>my name is <span className="font-bold">Nikhil Sundriya</span> ,</div>
@@ -308,7 +308,7 @@ function Projects() {
         {
             name: "Problem Recommendation System",
             date: "Sep 2020",
-            link: "https://github.com/nikhil9patel/Improve-Codeforces",
+            link: "https://github.com/nikhilsundriya/Improve-Codeforces",
             description: [
                 "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
             ],
@@ -317,7 +317,7 @@ function Projects() {
         {
             name: "Cleanliness Automation",
             date: "Dec 2019",
-            link: "https://github.com/nikhil9patel/CPU-Scheduling-APP-React-Native",
+            link: "https://github.com/nikhilsundriya/CPU-Scheduling-APP-React-Native",
             description: [
                 "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
             ],
@@ -352,7 +352,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/nikhil9patel/card" title="Sponsor nikhil9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            <iframe src="https://github.com/sponsors/nikhilsundriya/card" title="Sponsor nikhilsundriya" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
@@ -364,7 +364,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=nikhil9patel&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        <iframe src={`https://ghbtns.com/github-btn.html?user=nikhilsundriya&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
@@ -395,6 +395,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/nikhil-Patel-Resume.pdf" title="nikhil patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/nikhil-sundriya-Resume.pdf" title="nikhil sundriya resume" frameBorder="0"></iframe>
     )
 }
