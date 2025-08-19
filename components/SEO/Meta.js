@@ -39,7 +39,7 @@ export default function Meta() {
             <meta name="og:description"
                 content="Nikhil Sundriya's (nikhilsundriya) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/logo_1200.png" />
-            <meta name="og:url" content="http://vivek9patel.github.io/" />
+            <meta name="og:url" content="http://nikhilsundriya-portfolio.netlify.app/" />
             <meta name="og:site_name" content="Nikhil Sundriya Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
